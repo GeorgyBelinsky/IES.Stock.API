@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IES.DataContext\IES.DataContext.csproj" />
+    <ProjectReference Include="..\IES.Domain.Entities\IES.Domain.Entities.csproj" />
+    <ProjectReference Include="..\IES.Domain.Interfaces\IES.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\IES.Domain\IES.Domain.csproj" />
+    <ProjectReference Include="..\IES.Education.API\IES.Education.API.csproj" />
+    <ProjectReference Include="..\IES.Services.DTO\IES.Services.DTO.csproj" />
+    <ProjectReference Include="..\IES.Services.Interfaces\IES.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\IES.Services\IES.Services.csproj" />
+  </ItemGroup>
+
+</Project>
